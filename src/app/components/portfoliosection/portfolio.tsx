@@ -48,7 +48,7 @@ const PortfolioSection = () => {
   return (
     <div id="portfolio" className="max-w-5xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
       <h2 className="text-3xl font-bold mb-12">
-        Our <span className="text-yellow-400">Portfolio</span>
+        Our <span className="text-[#6367F0]">Portfolio</span>
       </h2>
 
       {/* Filter Button */}
@@ -59,8 +59,8 @@ const PortfolioSection = () => {
             onClick={() => setFilter(type as "all" | "web" | "mobile")}
             className={`px-4 py-2 rounded-full border transition ${
               filter === type
-                ? "bg-yellow-600 text-white"
-                : "bg-transparent border-yellow-600 text-yellow-600 hover:bg-yellow-600 hover:text-white"
+                ? "bg-[#6367F0] text-white"
+                : "bg-transparent border-[#6367F0] text-[#6367F0] hover:bg-[#6367F0] hover:text-white"
             }`}
           >
             {type.charAt(0).toUpperCase() + type.slice(1)}

@@ -17,16 +17,16 @@ const HomeSection = () => {
         {/* Content Section */}
         <div className="space-y-6 sm:space-y-8">
           <div className="space-y-2 md:space-y-4">
-            <h2 className="font-bold text-2xl sm:text-3xl lg:text-4xl text-gray-800 dark:text-neutral-200">
+            <h2 className="font-poppins font-bold text-2xl sm:text-3xl lg:text-4xl text-gray-800 dark:text-neutral-200">
               We Transform Your Ideas
             </h2>
 
             {/* into + RotatingText (1 Line) */}
             <div className="flex flex-wrap items-center gap-2">
-              <h2 className="font-bold text-2xl sm:text-3xl lg:text-4xl uppercase text-gray-800 dark:text-neutral-200">
+              <h2 className="font-poppins font-bold text-2xl sm:text-3xl lg:text-4xl uppercase text-gray-800 dark:text-neutral-200">
                 into
               </h2>
-              <h2 className="bg-gradient-to-r from-yellow-400 to-yellow-800 bg-clip-text text-transparent">
+              <h2 className="bg-gradient-to-r from-[#6367F0] to-yellow-800 bg-clip-text text-transparent">
                 <RotatingText
                   texts={[
                     "Reality",
@@ -34,7 +34,7 @@ const HomeSection = () => {
                     "Best Experience",
                     "Best Performance",
                   ]}
-                  mainClassName="font-bold text-xl sm:text-2xl lg:text-3xl px-2 text-yellow-400 overflow-hidden py-1 justify-center rounded-lg uppercase"
+                  mainClassName="font-poppins font-bold text-xl sm:text-2xl lg:text-3xl px-2 text-[#6367F0] overflow-hidden py-1 justify-center rounded-lg uppercase"
                   staggerFrom="last"
                   initial={{ y: "100%" }}
                   animate={{ y: 0 }}
@@ -54,9 +54,10 @@ const HomeSection = () => {
             </p>
           </div>
 
-          <a href="https://wa.link/u8kytq"
+          <a
+            href="https://wa.link/u8kytq"
             type="button"
-            className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-full border border-transparent bg-yellow-100 text-yellow-800 hover:bg-yellow-200 focus:outline-hidden focus:bg-yellow-200 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500 dark:bg-yellow-800/30 dark:hover:bg-yellow-800/20 dark:focus:bg-yellow-800/20"
+            className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-full border border-transparent bg-[#6367F0]/20 text-[#6367F0] hover:bg-[#6367F0]/30 focus:outline-hidden focus:bg-[#6367F0]/30 disabled:opacity-50 disabled:pointer-events-none dark:text-[#6367F0]/70 dark:bg-[#6367F0]/30 dark:hover:bg-[#6367F0]/20 dark:focus:bg-[#6367F0]/20"
           >
             Work with us!
           </a>

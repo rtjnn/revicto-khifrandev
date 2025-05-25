@@ -17,7 +17,7 @@ const AboutSection = () => {
           <div className="relative z-10 lg:grid lg:grid-cols-12 lg:gap-16 lg:items-center">
             <div className="mb-10 lg:mb-0 lg:col-span-6 lg:col-start-8 lg:order-2">
               <h2 className="text-3xl font-bold mb-12">
-                Why <span className="text-yellow-400">Choose Us?</span>
+                Why <span className="text-[#6367F0]">Choose Us?</span>
               </h2>
               <p className="text-sm text-gray-300">
                 With a proven track record in crafting exceptional apps and
@@ -57,8 +57,8 @@ const AboutSection = () => {
                       className={`transition-all duration-300 ease-in-out
     ${
       activeTab === id
-        ? "bg-white shadow-md dark:bg-yellow-400"
-        : "hover:bg-gray-200 dark:hover:bg-yellow-400"
+        ? "bg-white shadow-md dark:bg-[#6367F0]"
+        : "hover:bg-gray-200 dark:hover:bg-[#6367F0]"
     }
     text-start focus:outline-none p-4 md:p-5 rounded-xl`}
                       aria-selected={activeTab === id}
@@ -112,7 +112,7 @@ const AboutSection = () => {
         {/* <!-- Stats --> */}
         <div className="">
           <h2 className="text-3xl font-bold mb-12">
-            We Are <span className="text-yellow-400">Professional</span>
+            We Are <span className="text-[#6367F0]">Professional</span>
           </h2>
           <p>
             We personalize how we work to fit your project needs. Our approach
@@ -124,7 +124,7 @@ const AboutSection = () => {
                 <div className="grid grid-cols-1 sm:grid-cols-3 items-center gap-y-20 gap-x-12">
                   {/* <!-- Stats --> */}
                   <div className="relative text-center first:before:hidden before:absolute before:-top-full sm:before:top-1/2 before:start-1/2 sm:before:-start-6 before:w-px before:h-20 before:bg-neutral-800 before:rotate-[60deg] sm:before:rotate-12 before:transform sm:before:-translate-y-1/2 before:-translate-x-1/2 sm:before:-translate-x-0 before:mt-3.5 sm:before:mt-0">
-                    <LiaPrayingHandsSolid className="w-10 h-10 text-yellow-400 mx-auto" />
+                    <LiaPrayingHandsSolid className="w-10 h-10 text-[#6367F0] mx-auto" />
                     <div className="mt-3 sm:mt-5">
                       <h3 className="text-lg sm:text-3xl font-semibold text-white">
                         <CountUp
@@ -147,7 +147,7 @@ const AboutSection = () => {
                   {/* <!-- Stats --> */}
                   <div className="relative text-center first:before:hidden before:absolute before:-top-full sm:before:top-1/2 before:start-1/2 sm:before:-start-6 before:w-px before:h-20 before:bg-neutral-800 before:rotate-[60deg] sm:before:rotate-12 before:transform sm:before:-translate-y-1/2 before:-translate-x-1/2 sm:before:-translate-x-0 before:mt-3.5 sm:before:mt-0">
                     <div className="flex justify-center items-center -space-x-5">
-                      <BiHappyBeaming className="w-10 h-10 text-yellow-400 mx-auto" />
+                      <BiHappyBeaming className="w-10 h-10 text-[#6367F0] mx-auto" />
                     </div>
                     <div className="mt-3 sm:mt-5">
                       <h3 className="text-lg sm:text-3xl font-semibold text-white">
@@ -170,7 +170,7 @@ const AboutSection = () => {
 
                   {/* <!-- Stats --> */}
                   <div className="relative text-center first:before:hidden before:absolute before:-top-full sm:before:top-1/2 before:start-1/2 sm:before:-start-6 before:w-px before:h-20 before:bg-neutral-800 before:rotate-[60deg] sm:before:rotate-12 before:transform sm:before:-translate-y-1/2 before:-translate-x-1/2 sm:before:-translate-x-0 before:mt-3.5 sm:before:mt-0">
-                    <FaPeopleArrows className="w-10 h-10 text-yellow-400 mx-auto" />
+                    <FaPeopleArrows className="w-10 h-10 text-[#6367F0] mx-auto" />
                     <div className="mt-3 sm:mt-5">
                       <h3 className="text-lg sm:text-3xl font-semibold text-white">
                         <CountUp

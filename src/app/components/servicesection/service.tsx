@@ -20,7 +20,7 @@ const ServiceSection = () => {
             threshold={0.2}
           >
             <h2 className="text-3xl font-bold mb-12">
-              Our <span className="text-yellow-400">Services</span>
+              Our <span className="text-[#6367F0]">Services</span>
             </h2>
           </AnimatedContent>
         </div>

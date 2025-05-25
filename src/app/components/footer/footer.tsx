@@ -9,7 +9,6 @@ import {
   FaMailBulk,
 } from "react-icons/fa";
 
-
 const Footer = () => {
   return (
     <>
@@ -28,7 +27,7 @@ const Footer = () => {
             <div className="mt-3">
               <h2 className="text-3xl font-bold mb-12">
                 Launch Your Project{" "}
-                <span className="text-yellow-400">With Us</span>
+                <span className="text-[#6367F0]">With Us</span>
               </h2>
             </div>
             {/* <!-- End Col --> */}
@@ -38,7 +37,7 @@ const Footer = () => {
               <a
                 href="https://wa.link/u8kytq"
                 type="button"
-                className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-full border border-transparent bg-yellow-100 text-yellow-800 hover:bg-yellow-200 focus:outline-hidden focus:bg-yellow-200 disabled:opacity-50 disabled:pointer-events-none dark:text-yellow-500 dark:bg-yellow-800/30 dark:hover:bg-yellow-800/20 dark:focus:bg-yellow-800/20"
+                className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-full border border-transparent bg-[#6367F0]/20 text-[#6367F0] hover:bg-[#6367F0]/30 focus:outline-hidden focus:bg-[#6367F0]/30 disabled:opacity-50 disabled:pointer-events-none dark:text-[#6367F0]/70 dark:bg-[#6367F0]/30 dark:hover:bg-[#6367F0]/20 dark:focus:bg-[#6367F0]/20"
               >
                 Work with us!
               </a>
@@ -68,7 +67,7 @@ const Footer = () => {
             </div>
             {/* <!-- End Col --> */}
 
-            <div >
+            <div>
               <h4 className="text-xs font-semibold text-gray-900 uppercase dark:text-neutral-100">
                 Product
               </h4>

@@ -1,7 +1,7 @@
 "use client"; // wajib karena akses browser API
 
 import dynamic from "next/dynamic";
-import animate2 from "@/assets/animasi.json";
+import animate2 from "@/assets/animate2.json";
 
 const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 
