@@ -17,9 +17,9 @@ const HomeSection = () => {
         {/* Content Section */}
         <div className="space-y-6 sm:space-y-8">
           <div className="space-y-2 md:space-y-4">
-            <h2 className="font-poppins font-bold text-2xl sm:text-3xl lg:text-4xl text-gray-800 dark:text-neutral-200">
+            <h3 className="font-poppins font-bold text-2xl sm:text-3xl lg:text-4xl text-gray-800 dark:text-neutral-200">
               We Transform Your Ideas
-            </h2>
+            </h3>
 
             {/* into + RotatingText (1 Line) */}
             <div className="flex flex-wrap items-center gap-2">

@@ -31,7 +31,7 @@ const Navbar = () => {
 
   const isActive = (id: string) =>
     activeSection === id
-      ? "text-[#6367F0] font-semibold"
+      ? "text-[#6367F0] "
       : "text-white hover:text-neutral-300 focus:text-neutral-300";
 
   return (
@@ -63,7 +63,7 @@ const Navbar = () => {
                 aria-label="Toggle navigation"
                 data-hs-collapse="#hs-navbar-floating-dark"
               >
-                <TbLayoutNavbarCollapse/>
+                <TbLayoutNavbarCollapse />
               </button>
             </div>
           </div>

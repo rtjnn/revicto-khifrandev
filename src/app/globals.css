@@ -30,3 +30,6 @@ body {
 html {
   scroll-behavior: smooth;
 }
+.poppins-text {
+  font-family: var(--font-poppins), sans-serif;
+}

@@ -1,9 +1,9 @@
 "use client";
 
 import React, { useState } from "react";
-import { getSupabase } from '@/libs/supabase'
+import { getSupabase } from "@/libs/supabase";
 
-const supabase = getSupabase()
+const supabase = getSupabase();
 
 import { useRouter } from "next/navigation";
 
@@ -133,7 +133,7 @@ const Header = () => {
                       Signed in as
                     </p>
                     <p className="text-sm font-medium text-gray-800 dark:text-neutral-200">
-                      james@site.com
+                      admin@gmail.com
                     </p>
                     <p className="text-sm text-gray-500 dark:text-neutral-500">
                       --------
